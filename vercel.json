@@ -7,7 +7,7 @@
     },
     {
       "source": "/(.*)",
-      "destination": "http://121.37.40.51/$1"
+      "destination": "https://github.com/$1"
     },
     {
       "source": "/manhua/:match",
