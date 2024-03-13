@@ -2,8 +2,16 @@
   "version": 2,
   "rewrites": [
     {
+      "source": "/api/:match*",
+      "destination": "https://api.github.com/$1"
+    },
+    {
       "source": "/(.*)",
-      "destination": "https://chat.openai.com/$1"
+      "destination": "https://github.com/$1"
+    },
+    {
+      "source": "/manhua/:match",
+      "destination": "https://www.mangabz.com/$1"
     }
   ],
   "headers": [
