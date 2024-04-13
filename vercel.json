@@ -12,7 +12,11 @@
     {
       "source": "/manhua/:match",
       "destination": "https://www.mangabz.com/$1"
-    }
+    },
+       {
+      "source": "/epg/:match*",
+      "destination": "https://epg.pw/stream/:match*"
+    },
   ],
   "headers": [
     {
